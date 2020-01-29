@@ -1,0 +1,57 @@
+.banner .logo-banner {
+   width: 500px;
+   height: 100px;
+   display: block;
+   margin: 50px auto;
+ }
+
+.grid-item {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.grid-item h3 {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.grid-item p {
+  padding: 5px 30px 0px 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.grid-item i {
+  color: #FFFFFF;
+  font-size: 4em;
+  margin-top: 20px;
+}
+
+/* --------- Responsivo --------- */
+
+@media screen and (min-width: 800px){
+ .grid {
+   display: grid;
+   margin-top: 30px;
+ }
+
+ .grid-informacoes {
+  grid-template-columns: 1fr 1fr 1fr;
+ }
+
+.grid-servicos {
+  grid-template-columns: 1fr 1fr;
+ }
+}
+
+@media screen and (max-width: 719px){
+   .grid-item h3 {
+      margin-top: 50px;
+   }
+
+  .banner .logo-banner {
+   width: 350px;
+   height: 80px;
+  }
+}
