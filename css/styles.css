@@ -106,6 +106,35 @@ h1, h2, span {
 	margin: 0 auto;
 }
 
+.mae-filho {
+	width: 700px;
+	height: 500px;
+	display: block;
+	margin: 0 auto;
+}
+
+.saint-germain {
+	width: 600px;
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.arma {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-right: 30px;
+}
+
+.des-mondes {
+	width: 500px;
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+}
+
 figcaption {
 	text-align: center;
 	margin-top: 20px;
