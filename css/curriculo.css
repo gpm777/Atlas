@@ -1,0 +1,120 @@
+h2 {
+  margin-bottom: 50px;
+}
+
+.curriculo {
+  padding: 0;
+  border-top: 3px ridge #808080;
+  margin-top: 10px;
+}
+
+.curriculo h3 {
+	display: inline-block;
+  padding: 25px 0;
+}
+
+.curriculo i {
+	margin-right: 10px;
+	font-size: 1.2em;
+}
+
+div.curriculo > i {
+  color: #15317E;
+}
+
+.curriculo h6 + i  {
+  margin-left: 90px;
+}
+
+.curriculo h4 {
+  padding-top: 25px;
+  border-top: 1px dashed #808080;
+  margin-top: 0;
+}
+
+.curriculo section {
+  margin-bottom: 30px;
+}
+
+.curriculo section:first-of-type h4 {
+  border-top: 0;
+}
+
+.curriculo h5 {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+main > section:last-of-type {
+  margin-top: 100px;
+}
+
+section#idiomas section:last-of-type {
+  border-top: 1px dashed #808080;
+}
+
+section#idiomas h4 {
+  display: inline-block;
+  padding-top: 0;
+  border: none;
+}
+
+.curriculo h6 {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.info {
+	margin-top: 20px;
+}
+
+.info::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo-info {
+   float: left;
+   width: 50px;
+   height: 50px;
+   display: inline-block;
+   margin-top: 10px;
+   margin-right: 10px;
+ }
+
+.bandeira {
+   float: left;
+   width: 25px;
+   height: 20px;
+   display: inline-block;
+   margin-top: 10px;
+   margin-right: 10px;
+ }
+
+ .banner h2 {
+   margin-top: 0;
+   text-transform: uppercase;
+   font-size: 2.5em;
+ }
+
+ .banner a {
+   background: #FFFFFF;
+   color: #2554C7;
+   display: block;
+   margin: 30px auto;
+   text-align: center;
+   max-width: 150px;
+   text-decoration: none;
+   padding: 15px;
+ }
+
+.banner i {
+   margin-right: 20px;
+ }
+
+ @media screen and (max-width: 719px){
+    .banner h2 {
+      font-size: 1.8em;
+    }
+}

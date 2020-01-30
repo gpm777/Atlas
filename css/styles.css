@@ -8,12 +8,20 @@ html {
 	box-sizing: inherit;
 }
 
+html, body {
+	background-color: #483D8B;
+}
+
 body {
-	margin: 0;
+	width: 80%;
+	margin: 0 auto;
 	padding: 0;
 	font-family: sans-serif;
-	font-size: 1.2em;
+	font-size: 1.3rem;
+	padding: 2.5% 2.5% 0;
 	line-height: 1.5;
+    font-family: 'Noto Sans SC', sans-serif;
+    background-color: #FFFFFF;
 }
 
 h1, h2 {
@@ -21,17 +29,105 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 3rem;
+	margin-top: 50px;
+	font-family: 'Acme', sans-serif;
 }
 
 h2 {
-	font-size: 1.2em;
+	font-size: 1.4rem;
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+h3 {
+	font-size: 1.8rem;
+	font-family: 'Ropa Sans', sans-serif;
+	color: #483D8B;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	border-bottom: 10px dotted #483D8B;
+}
+
+nav a {
+	padding: 50px;
+	display: inline-block;
+	font-size: 2.5rem;
+	text-decoration: none;
+	color: 	#483D8B;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav a:hover {
+	color: #7B68EE;
+	text-decoration: underline;	
+}
+
+span {
+	display: block;
+	margin-top: 20px;
+	font-size: 0.9em;
+	color: #6A5ACD;
+}
+
+h1, h2, span {
+	text-align: center;
 }
 
 .conteudo {
 	max-width: 800px;
 	width: 85%;
 	margin: 0 auto;
-	padding: 60px 0;
+	padding: 20px 0;
 	text-align: justify;
+}
+
+.bombeiro {
+	width: 700px;
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.mico-leao {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-right: 30px;
+}
+
+.vitima {
+	width: 500px;
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+}
+
+figcaption {
+	text-align: center;
+	margin-top: 20px;
+}
+
+blockquote p {
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.3em;
+	line-height: 1.2;
+	color: #483D8B;
+}
+
+blockquote cite {
+	font-size: 0.9em;
+}
+
+blockquote p::before {
+	content: "\201C";
+	font-size: 1.3em;
+}
+
+blockquote p::after {
+	content: "\201D";
+	font-size: 1.3em;
 }
